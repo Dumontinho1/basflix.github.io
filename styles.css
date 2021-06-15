@@ -1,0 +1,196 @@
+body{
+    background-color:rgb(126, 126, 245);
+}
+
+.header{
+    background:rgba(68, 68, 165, 0.89);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header_area{
+    padding: 20px;
+}
+
+.menu_area{
+    margin:10px;
+}
+
+.menu_area nav a{
+    color: rgb(0, 0, 0);
+}
+
+.menu_area nav a:hover{
+    background-color: #6f77bb;
+}
+
+.logo{
+    width: 200px;
+}
+
+.header_main_area{
+    text-align: center;
+}
+
+.main_text_area{
+    padding-bottom: 30px;
+}
+
+.carousel-text{
+    text-align: center;
+}
+
+.video_carousel{
+    padding: 10px;
+    justify-content: center;
+}
+
+.main_area{
+    background-color: rgb(159, 198, 235);
+    padding-bottom: 10px;
+}
+
+.main_text_area{
+    background-color: rgb(159, 198, 235);
+}
+
+.destaque_text{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.destaque_lista{
+    width: 300px;
+    padding-top: 50px;
+}
+
+.filmedestaque1{
+    width: 250px;
+    height: 300px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.filmedestaque2{
+    width: 250px;
+    height: 300px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.filmedestaque3{
+    width: 250px;
+    height: 300px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.filmedestaque4{
+    width: 250px;
+    height: 300px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.button_destaque{
+    padding-top: 20px;
+}
+
+.button_avaliacoes{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.avaliacao_text{
+    padding-top: 50px;
+}
+
+.card > img{
+    width: 200px;
+}
+
+.card{
+    margin-left: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: rgb(145, 183, 233);
+}
+
+.card-img-top{
+    margin: 0 auto;
+}
+
+.card-body{
+    background-color: rgb(145, 183, 233);
+}
+
+.list-group-item{
+    background-color: rgb(145, 183, 233);
+}
+
+.entrevista_main_area{
+    background-color: rgba(93, 93, 236, 0.74);
+}
+
+.entrevista_text{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.video_entrevista{
+    padding-top: 20px;
+    padding-right: 50px;
+    align-items: center;
+}
+
+.entrevista_video1{
+    text-align: center;
+}
+.entrevista_video2{
+    text-align: center;
+}
+.entrevista_video3{
+    text-align: center;
+}
+
+.button_entrevista{
+    padding-top: 10px;
+}
+
+.sobre_text{
+    padding-top: 50px;
+}
+
+.novidades_text{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.novidade1{
+    padding-bottom: 35px;
+}
+.novidade2{
+    padding-bottom: 35px;
+}
+.novidade3{
+    padding-bottom: 35px;
+}
+
+.text_novidades{
+    padding-left: 0px;
+}
+
+.footer{
+    background:rgb(43, 43, 58);
+    margin-top: 10px;
+    color: white;
+}
+
+.footer_area{
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1025px){
+    .sobre_text{
+        display: none;
+    }
+}
