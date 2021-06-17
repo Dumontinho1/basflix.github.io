@@ -15,19 +15,19 @@
 
 <body>
 
-    <header class="container header">
+    <header class="container cabecalho">
 
         <div class="row">
 
-            <div class="col-12 header_area">
+            <div class="col-12 cabecalho_area">
                 <div class="row">
                     <div class="col-12 col-md-12 col-sm-12">
                         <img src="logosite.png" class="logo">
                     </div>
                     <div class="col-12 menu_area">
                         <nav class="nav nav-pills flex-column flex-sm-row">
-                            <a class="flex-sm-fill text-sm-center nav-link" href="#lancamentos">Lançamentos</a>
                             <a class="flex-sm-fill text-sm-center nav-link" href="#destaque">Em Destaque</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="#lancamentos">Lançamentos</a>
                             <a class="flex-sm-fill text-sm-center nav-link" href="#avaliacoes">Avaliações</a>
                             <a class="flex-sm-fill text-sm-center nav-link" href="#entrevistas">Entrevista e makingof</a>
                             <a class="flex-sm-fill text-sm-center nav-link" href="#novidades">Novidades</a>
@@ -39,8 +39,24 @@
 
         </div>
 
-    </header>
-
+      </header>
+      
+          <div class="col-12 destaque_text">
+            <h1 id="destaque">Em Destaque</h1>
+          </div>
+      
+        </div>
+        <header2>
+          <form  id="form">
+              <input type="text" placeholder="Pesquisar" id="search" class="search">
+          </form>
+      </header2>
+      <div id="tags"></div>
+      <div id="myNav" class="overlay">              
+          <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a>               
+          <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow" >&#8658;</a>      
+        </div>
+      <main id="main"></main>
 
     <main class="container main">
 
@@ -120,35 +136,6 @@
             </div>
             <div class="row">
 
-              <div class="col-6 destaque_text">
-                <h1 id="destaque">Em Destaque</h1>
-              </div>
-              <div class="col-6 destaque_lista">
-                <select class=" form-select" arial-label="Default select example">
-                  <option selected>Todos</option>
-                  <option value="1">Romance</option>
-                  <option value="2">Ação</option>
-                  <option value="3">Aventura</option>
-                </select>
-
-              </div>
-
-            </div>
-            <div class="row">
-
-              <div class="col-12 filmes_destaque">
-
-                <img src="filmedestaque1.jpg" class="col-2 filmedestaque1">
-                <img src="filmedestaque2.jpg" class="col-2 filmedestaque2">
-                <img src="filmedestaque3.jpg" class="col-2 filmedestaque3">
-                <img src="filmedestaque4.jpg" class="col-2 filmedestaque4">
-
-              </div>
-
-            </div>
-            <div class="col-12 button_destaque">
-              <button type="button" class="btn btn-secondary">+ Carregar mais filmes</button>
-            </div>
             <div class="row">
 
               <div class="col-12 avaliacao_text">
@@ -189,9 +176,6 @@
               </div>
 
             </div>
-            <div class="col-12 button_avaliacoes">
-              <button type="button" class="btn btn-secondary">+ Carregar mais avaliações</button>
-            </div>
 
           </div>
           <div class="col-12 entrevista_main_area">
@@ -231,9 +215,6 @@
               </div>
             </div>
 
-          </div>
-          <div class="button_entrevista">
-            <button type="button" class="btn btn-secondary" style="float: right">+ Carregar mais entrevistas</button>
           </div>
           <div class="row">
 
@@ -295,10 +276,10 @@
 
 
 
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 
